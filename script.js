@@ -1,12 +1,5 @@
-// Set the date for testing (2 minutes from now)
-let testDate = new Date(new Date().getTime() + 2 * 60 * 1000).getTime(); // 2 minutes
-
-// Use the test date instead of the actual birthday date
-let birthdayDate = testDate;
-
-
-/* // Set the date for the birthday
-let birthdayDate = new Date("September 10, 2024 00:00:00").getTime(); */
+// Set the date for the birthday
+let birthdayDate = new Date("September 10, 2024 00:00:00").getTime();
 
 // Update the countdown every second
 let countdownFunction = setInterval(function() {
