@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+}
+
+#countdown {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+    margin: 20px 0;
+}
+
+.timer-section {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    margin: 0 5px;
+    font-size: 1em; /* Adjust font size for smaller screens */
+}
+
+#message {
+    font-size: 1.2em; /* Adjust font size for smaller screens */
+    color: #ff69b4;
+}
+
+.birthday-img {
+    width: 80%; /* Adjust width to fit smaller screens */
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    #countdown {
+        font-size: 1.2em;
+    }
+
+    .timer-section {
+        font-size: 0.9em;
+    }
+
+    #message {
+        font-size: 1em;
+    }
+
+    .birthday-img {
+        width: 100%;
+    }
+}
